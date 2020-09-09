@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 
 namespace FizzBuzz
 {
@@ -39,7 +38,7 @@ namespace FizzBuzz
                 WriteLinesForComputeUntil(100);
         }
 
-        public static void WriteLinesForComputeUntil(int theEnd)
+        private static void WriteLinesForComputeUntil(int theEnd)
         {
             for (int i = 1; i <= theEnd; i++)
                 Console.WriteLine(Compute(i));
